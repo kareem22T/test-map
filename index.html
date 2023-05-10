@@ -17,7 +17,7 @@
 
         // Update the location div with the lat and lng values
         const locationDiv = document.getElementById("location");
-        locationDiv.innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+        locationDiv.innerHTML += "Latitude: " + latitude + "<br>Longitude: " + longitude + "<br><br>";
       }
 
       if (navigator.geolocation) {
